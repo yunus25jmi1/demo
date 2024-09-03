@@ -8,6 +8,7 @@ import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
+export const runtime = "edge";
 
 export const metadata = {
   title: "Yusuf | Personal Portfolio",
